@@ -1,0 +1,59 @@
+/*styling.css*/
+/*add font family, background image*/
+h1 {
+  margin-top: 15px;
+}
+  
+  .fa-map-marker-alt,
+  .fa-dot-circle {
+    color: #2bb6e0;
+  }
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+a {
+  font-weight: 600;
+}
+  
+  /*Jumbotron*/
+  .jumbotron {
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .jumbotron h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .btn-block {
+      display: block;
+      text-align: center;
+      margin-bottom: 15px;
+  }
+  .btn {
+    margin: 0 10px;
+  }
+  
+  #googleMap {
+    width: 100%;
+    height: 500px;
+    margin: 10px auto;
+  }
+  
+  /*output box*/
+  #output {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px auto;
+  }
+  
+  #mode {
+    color: black;
+  }
